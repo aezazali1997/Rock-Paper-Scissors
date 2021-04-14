@@ -1,0 +1,90 @@
+.game-title {
+  font-size: 20pt;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  width: 100%;
+}
+
+.main {
+  background-color: #333;
+  width: 100%;
+}
+
+.score-board {
+  border: 1px solid #fff;
+  position: relative;
+  text-align: center;
+  width: 25%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.score-board span {
+  font-size: 32px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .score-board {
+    width: 50%;
+  }
+}
+
+.badge {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #b93a3a;
+}
+
+.user {
+  left: -20px;
+}
+
+.comp {
+  right: -20px;
+}
+
+.turns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.turns button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 1rem 0;
+  margin: 0 1rem;
+  -webkit-transition: background-color .3s ease-in;
+  transition: background-color .3s ease-in;
+}
+
+.turns button:hover {
+  background-color: rgba(97, 96, 96, 0.589);
+}
+
+.turns button span {
+  color: #dda816;
+  font-size: 30px;
+  margin: 0 1rem;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
